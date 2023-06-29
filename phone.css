@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.phone{
+    width: 100%;
+    height: 100%;
+    border: 3px solid #000;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1rem;
+
+    display: none;
+}
+.notch{
+    width: 100%;
+    height: 50px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.sensor{
+    width: 10%;
+    border: 2px solid #333;
+    border-radius: 1rem;
+}
+.main-phone-space-container{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+.phone-border{
+    width: 3%;
+    height: 100%;
+    background-color: #111;
+}
+.main-phone-space{
+    width: 94%;
+    height: 100%;
+}
+.phone-btn{
+    width: 25px;
+    height: 25px;
+    background-color: gray;
+    border: 2px solid #555;
+    border-radius: 50%;
+}
+
+/* media */
+@media screen and (max-width: 655px){
+    .phone{
+        display: block;
+    }
+}
